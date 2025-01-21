@@ -1,0 +1,5 @@
+"X","Source.Port","Destination.Port","NAT.Source.Port","NAT.Destination.Port","Bytes","Bytes.Sent","Bytes.Received","Packets","Elapsed.Time..sec.","pkts_sent","pkts_received","Class"
+0,33313,443,29395,443,9675,2389,7286,43,143,21,22,"allow"
+7,18652,64147,0,0,62,62,0,1,0,1,0,"deny"
+3,50270,445,0,0,70,70,0,1,0,1,0,"drop"
+336,1024,21854,0,0,157,157,0,1,0,1,0,"reset-both"
