@@ -13,9 +13,11 @@ trying values of k from 1 to 5. Make sure to normalize the data, and choose func
 from package class rather than package FNN. To make sure R is using the class package 
 (when both packages are loaded), use class::knn(). What is the best k? What does it mean?
 - Predict the MEDV for a tract with the following information, using the best k:
- | CRIM | ZN | INDUS | CHAS |  NOX  | RM | AGE | DIS | RAD | TAX | PTRATIO | LSTAT |
- | ---- | -- | ----- | ---- | ----- | -- | --- | --- | --- | --- | ------- | ----- | 
- |  0.2 |  0 |   7   |   0  | 0.538 |  6 |  62 | 4.7 |  4  | 307 |    21   |   10  | 
+
+| CRIM | ZN | INDUS | CHAS |  NOX  | RM | AGE | DIS | RAD | TAX | PTRATIO | LSTAT |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| 0.2 | 0 | 7 | 0 | 0.538 | 6 | 62 | 4.7 | 4 | 307 | 21 | 10 | 
+
 - If we used the above k-NN algorithm to score the training data, what would be the 
 error of the training set?
 - Why is the validation data error overly optimistic compared to the error rate when 
